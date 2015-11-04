@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="action_settings">Settings</string>
+
+    //Title
+    <string name="title">HangDroid</string>
+    <string name="title_activity_game">HangDroid</string>
+
+    //Text
+    <string name="wrongLetters">Wrong Letters</string>
+
+    //Button Labels
+    <string name="singleBtn">Single Player</string>
+    <string name="multiBtn">Multiplayer</string>
+    <string name="scoreBtn">Score</string>
+    <string name="checkBtn">Check Letter</string>
+</resources>
