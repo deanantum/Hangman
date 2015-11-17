@@ -12,6 +12,11 @@
     //Button Labels
     <string name="singleBtn">Single Player</string>
     <string name="multiBtn">Multiplayer</string>
-    <string name="scoreBtn">Score</string>
+    <string name="scoreBtn">Save Score</string>
     <string name="checkBtn">Check Letter</string>
+    <string name="tryAgainBtn">Try Again</string>
+    <string name="playBtn">Play</string>
+    <string name="exitBtn">Exit</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+    <string name="title_activity_multiplayer">MultiplayerActivity</string>
 </resources>

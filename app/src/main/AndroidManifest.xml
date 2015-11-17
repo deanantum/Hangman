@@ -21,6 +21,19 @@
             android:name=".GameActivity"
             android:label="@string/title_activity_game" >
         </activity>
+        <activity
+            android:name=".GameOverActivity"
+            android:label="@string/title_activity_game_over" >
+        </activity>
+        <activity
+            android:name=".MultiplayerActivity"
+            android:label="@string/title_activity_multiplayer" >
+        </activity>
+        <activity
+            android:name=".GameMultiActivity"
+            android:label="@string/title_activity_multiplayer" >
+        </activity>
+
     </application>
 
 </manifest>

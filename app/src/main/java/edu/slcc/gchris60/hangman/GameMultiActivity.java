@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -12,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class GameActivity extends ActionBarActivity {
+public class GameMultiActivity extends ActionBarActivity {
 
     private EditText editText;
     private String input;
@@ -60,7 +59,7 @@ public class GameActivity extends ActionBarActivity {
             if( theWord.charAt(i) == aLetter ){
                 winningLength++;
                 letterMatch = true;
-                Log.d("MYLOG", "Letter found: "+ aLetter);
+                Log.d("MYLOG", "Letter found: " + aLetter);
                 //Toast.makeText(this,"Matched: ", Toast.LENGTH_SHORT).show();
                 showLetters( i,aLetter );
             }

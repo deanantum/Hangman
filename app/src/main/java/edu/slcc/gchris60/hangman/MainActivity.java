@@ -27,6 +27,12 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    public void startMultiplayer(View view){
+        //create an intent to pass the ball
+        Intent intent = new Intent(this, GameActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
